@@ -3,34 +3,29 @@ build/
 install/
 log/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-*.egg
-
-# IDE
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Maps (if generated)
-maps/*.pgm
-maps/*.yaml
-maps/*.png
-
-# Temporary files
-*.tmp
-*.bak
-*.log
+# Maps (optional - uncomment if you don't want to track maps)
+# maps/
 
