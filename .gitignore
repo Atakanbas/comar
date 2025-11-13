@@ -3,6 +3,10 @@ build/
 install/
 log/
 
+# PX4 build artifacts
+PX4-Autopilot/build/
+PX4-Autopilot/log/
+
 # IDE files
 .vscode/
 .idea/

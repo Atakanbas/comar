@@ -1,0 +1,6 @@
+module_name: YDLidar G2 Rangefinder
+serial_config:
+    - command: ydlidar_g2 start -d ${SERIAL_DEV}
+      port_config_param:
+        name: SENS_YDLG2_CFG
+        group: Sensors

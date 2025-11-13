@@ -1,0 +1,39 @@
+#!nsh
+# @name YDLIDAR G2 2D Lidar Configuration
+# @type Custom
+# @class Sensors
+# @url https://github.com/PX4/PX4-Autopilot
+
+# YDLIDAR G2 2D Lidar Configuration
+# This configuration sets up the YDLIDAR G2 2D lidar for 360-degree obstacle detection
+
+# Set serial port configuration for YDLIDAR G2
+# UART4 port (index 4) for Pixhawk 6X - RECOMMENDED
+param set SENS_YDLG2_CFG 4
+
+# Auto-start YDLidar G2 driver on boot
+ydlidar_g2 start -d /dev/ttyS3
+
+# Enable obstacle avoidance
+param set MPC_OBS_AVOID 1
+param set MPC_OBS_AVOID_DIST 2.0
+
+# RC Switch for YDLidar control (AUX1 channel)
+param set RC_MAP_AUX1 5
+param set PWM_AUX_FUNC1 2000
+
+# Configure collision prevention
+param set CP_DIST 1.5
+param set CP_DELAY 0.0
+
+# Enable distance sensor fusion
+param set EKF2_RNG_CTRL 1
+param set EKF2_RNG_A_VMAX 5.0
+param set EKF2_RNG_A_HMAX 5.0
+
+# Set up obstacle distance topic
+param set MAV_1_CONFIG TELEM
+param set MAV_1_MODE Normal
+param set MAV_1_RATE 50
+
+echo "YDLIDAR G2 configuration loaded (TELEM2). Driver will autostart via serial_config."

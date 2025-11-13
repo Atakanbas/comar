@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# PX4 FMU-v6x specific board extras init
+#------------------------------------------------------------------------------
+
+# DIR_OUT Module - Otomatik yön kontrolü için
+# RC throttle'dan direction PWM üretir
+echo "Starting DIR_OUT module for automatic direction control..."
+
+# Modülü başlat
+dir_out start
+
+echo "DIR_OUT module started successfully"

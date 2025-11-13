@@ -1,0 +1,5 @@
+menuconfig DRIVERS_DISTANCE_SENSOR_YDLIDAR_G2
+	bool "YDLidar G2"
+	default n
+	---help---
+		Enable support for YDLidar G2 360-degree laser rangefinder

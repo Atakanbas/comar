@@ -1,0 +1,135 @@
+module_name: DIR_OUT
+parameters:
+  - group: DIR_OUT
+    definitions:
+      DIR_RC_MAP_THR:
+        description:
+          short: RC channel index for throttle (1-based). -1 uses RC_MAP_THROTTLE.
+        type: int32
+        default: -1
+        min: -1
+        max: 18
+
+      DIR_OUT_BUS:
+        description:
+          short: Output bus for drive direction (0=MAIN, 1=AUX)
+        type: int32
+        default: 1
+        min: 0
+        max: 1
+
+      DIR_OUT_CH:
+        description:
+          short: Output channel (1-8), 0 disables
+        type: int32
+        default: 1
+        min: 0
+        max: 8
+
+      DIR_DB_US:
+        description:
+          short: Deadband around 1500 us for direction decision
+        type: int32
+        default: 100
+        min: 0
+        max: 300
+
+      DIR_HIGH_PWM:
+        description:
+          short: Forward/high PWM value (us)
+        type: int32
+        default: 2000
+        min: 1600
+        max: 2200
+
+      DIR_LOW_PWM:
+        description:
+          short: Reverse/low PWM value (us)
+        type: int32
+        default: 1000
+        min: 800
+        max: 1400
+
+      DIR_SW_DELAY:
+        description:
+          short: Direction change delay (ms)
+        type: int32
+        default: 150
+        min: 0
+        max: 1000
+
+      DIR_POLARITY:
+        description:
+          short: Direction polarity (1=forward=HIGH, 0=forward=LOW)
+        type: int32
+        default: 1
+        min: 0
+        max: 1
+
+  - group: SDIR_OUT
+    definitions:
+      SDIR_RC_MAP:
+        description:
+          short: RC channel index for steer (1-based). -1 uses RC_MAP_ROLL.
+        type: int32
+        default: -1
+        min: -1
+        max: 18
+
+      SDIR_OUT_BUS:
+        description:
+          short: Output bus for steer (0=MAIN, 1=AUX)
+        type: int32
+        default: 1
+        min: 0
+        max: 1
+
+      SDIR_OUT_CH:
+        description:
+          short: Output channel for steer (1-8), 0 disables
+        type: int32
+        default: 0
+        min: 0
+        max: 8
+
+      SDIR_DB_US:
+        description:
+          short: Deadband for steer around 1500 us
+        type: int32
+        default: 100
+        min: 0
+        max: 300
+
+      SDIR_HIGH_PWM:
+        description:
+          short: Right/high PWM value (us)
+        type: int32
+        default: 2000
+        min: 1600
+        max: 2200
+
+      SDIR_LOW_PWM:
+        description:
+          short: Left/low PWM value (us)
+        type: int32
+        default: 1000
+        min: 800
+        max: 1400
+
+      SDIR_SW_DELAY:
+        description:
+          short: Steer change delay (ms)
+        type: int32
+        default: 50
+        min: 0
+        max: 1000
+
+      SDIR_POLARITY:
+        description:
+          short: Steer polarity (1=right=HIGH, 0=right=LOW)
+        type: int32
+        default: 1
+        min: 0
+        max: 1
+
+

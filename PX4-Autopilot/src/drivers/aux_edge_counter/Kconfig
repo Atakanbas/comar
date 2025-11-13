@@ -1,0 +1,6 @@
+menuconfig DRIVERS_AUX_EDGE_COUNTER
+	bool "aux_edge_counter"
+	default n
+	---help---
+		Enable support for AUX pin rising edge counter
+
