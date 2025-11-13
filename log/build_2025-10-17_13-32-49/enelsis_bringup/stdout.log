@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating enelsis_bringup.egg-info
+writing enelsis_bringup.egg-info/PKG-INFO
+writing dependency_links to enelsis_bringup.egg-info/dependency_links.txt
+writing entry points to enelsis_bringup.egg-info/entry_points.txt
+writing requirements to enelsis_bringup.egg-info/requires.txt
+writing top-level names to enelsis_bringup.egg-info/top_level.txt
+writing manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+reading manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+writing manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages/enelsis-bringup.egg-link (link to .)
+
+Installed /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup
+running symlink_data
+creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index
+creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index/resource_index
+creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/resource/enelsis_bringup -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/package.xml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup
+creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/launch
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/enelsis_bringup/launch/bringup.launch.py -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/launch
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/launch/cartographer_sera.launch.py -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/launch
+creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/ydlidar_g2.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/laser_filters.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/rf2o.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/ekf.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/slam_toolbox.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/mavros.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config

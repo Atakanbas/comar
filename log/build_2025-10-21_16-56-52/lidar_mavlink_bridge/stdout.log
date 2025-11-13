@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing lidar_mavlink_bridge.egg-info/PKG-INFO
+writing dependency_links to lidar_mavlink_bridge.egg-info/dependency_links.txt
+writing entry points to lidar_mavlink_bridge.egg-info/entry_points.txt
+writing requirements to lidar_mavlink_bridge.egg-info/requires.txt
+writing top-level names to lidar_mavlink_bridge.egg-info/top_level.txt
+reading manifest file 'lidar_mavlink_bridge.egg-info/SOURCES.txt'
+writing manifest file 'lidar_mavlink_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/enelsis-pc/enelsis_moab_ws/install/lidar_mavlink_bridge/lib/python3.10/site-packages/lidar-mavlink-bridge.egg-link (link to .)
+Installing lidar_mavlink_bridge script to /home/enelsis-pc/enelsis_moab_ws/install/lidar_mavlink_bridge/lib/lidar_mavlink_bridge
+
+Installed /home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge
+running symlink_data

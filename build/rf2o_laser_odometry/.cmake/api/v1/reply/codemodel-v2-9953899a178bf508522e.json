@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-33bb811e728488f2d438.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rf2o_laser_odometry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rf2o_laser_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf2o_laser_odometry-Release-e453cd1c79d140f72baa.json",
+					"name" : "rf2o_laser_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rf2o_laser_odometry_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf2o_laser_odometry_node-Release-0a42f74d5277f9f4f99c.json",
+					"name" : "rf2o_laser_odometry_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rf2o_laser_odometry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf2o_laser_odometry_uninstall-Release-5774c5d4fdd3112437bf.json",
+					"name" : "rf2o_laser_odometry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-17c4a3bf727844a71494.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/enelsis-pc/enelsis_moab_ws/build/rf2o_laser_odometry",
+		"source" : "/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

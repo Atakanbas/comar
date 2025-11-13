@@ -1,0 +1,34 @@
+[2.863s] Invoking command in '/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup': PYTHONPATH=/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/build --no-deps symlink_data
+[3.702s] running develop
+[4.227s] running egg_info
+[4.227s] creating enelsis_bringup.egg-info
+[4.227s] writing enelsis_bringup.egg-info/PKG-INFO
+[4.227s] writing dependency_links to enelsis_bringup.egg-info/dependency_links.txt
+[4.227s] writing entry points to enelsis_bringup.egg-info/entry_points.txt
+[4.227s] writing requirements to enelsis_bringup.egg-info/requires.txt
+[4.228s] writing top-level names to enelsis_bringup.egg-info/top_level.txt
+[4.228s] writing manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+[4.275s] reading manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+[4.275s] writing manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+[4.283s] running build_ext
+[4.283s] Creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages/enelsis-bringup.egg-link (link to .)
+[4.284s] 
+[4.284s] Installed /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup
+[4.284s] running symlink_data
+[4.285s] creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index
+[4.285s] creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index/resource_index
+[4.285s] creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index/resource_index/packages
+[4.285s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/resource/enelsis_bringup -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/ament_index/resource_index/packages
+[4.285s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/package.xml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup
+[4.286s] creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/launch
+[4.286s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/enelsis_bringup/launch/bringup.launch.py -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/launch
+[4.286s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/launch/cartographer_sera.launch.py -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/launch
+[4.286s] creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.286s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/ydlidar_g2.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.286s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/laser_filters.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.286s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/rf2o.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.287s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/ekf.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.287s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/slam_toolbox.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.287s] symbolically linking /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/mavros.yaml -> /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/share/enelsis_bringup/config
+[4.287s] error: can't copy '/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/config/ekf_enhanced.yaml': doesn't exist or not a regular file
+[4.362s] Invoked command in '/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup' returned '1': PYTHONPATH=/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/build --no-deps symlink_data

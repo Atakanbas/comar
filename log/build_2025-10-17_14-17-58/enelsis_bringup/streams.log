@@ -1,0 +1,16 @@
+[3.259s] Invoking command in '/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup': PYTHONPATH=/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/build --no-deps symlink_data
+[4.219s] running develop
+[4.984s] running egg_info
+[4.986s] writing enelsis_bringup.egg-info/PKG-INFO
+[4.987s] writing dependency_links to enelsis_bringup.egg-info/dependency_links.txt
+[4.988s] writing entry points to enelsis_bringup.egg-info/entry_points.txt
+[4.989s] writing requirements to enelsis_bringup.egg-info/requires.txt
+[4.990s] writing top-level names to enelsis_bringup.egg-info/top_level.txt
+[5.060s] reading manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+[5.064s] writing manifest file 'enelsis_bringup.egg-info/SOURCES.txt'
+[5.075s] running build_ext
+[5.077s] Creating /home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages/enelsis-bringup.egg-link (link to .)
+[5.080s] 
+[5.080s] Installed /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup
+[5.082s] running symlink_data
+[5.183s] Invoked command in '/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup' returned '0': PYTHONPATH=/home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enelsis-pc/enelsis_moab_ws/install/enelsis_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/enelsis-pc/enelsis_moab_ws/build/enelsis_bringup/build --no-deps symlink_data

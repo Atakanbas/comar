@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+lidar_mavlink_bridge/__init__.py
+lidar_mavlink_bridge/lidar_mavlink_bridge.py
+lidar_mavlink_bridge.egg-info/PKG-INFO
+lidar_mavlink_bridge.egg-info/SOURCES.txt
+lidar_mavlink_bridge.egg-info/dependency_links.txt
+lidar_mavlink_bridge.egg-info/entry_points.txt
+lidar_mavlink_bridge.egg-info/requires.txt
+lidar_mavlink_bridge.egg-info/top_level.txt
+lidar_mavlink_bridge.egg-info/zip-safe
+resource/lidar_mavlink_bridge

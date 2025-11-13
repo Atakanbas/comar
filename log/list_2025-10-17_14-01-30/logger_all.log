@@ -1,0 +1,198 @@
+[0.527s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/enelsis-pc/enelsis_moab_ws']
+[0.527s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/enelsis-pc/enelsis_moab_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f893019fb50>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f893019e7d0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f893019e7d0>>, mixin_verb=('list',))
+[1.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.393s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/enelsis-pc/enelsis_moab_ws'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'ignore'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'ignore_ament_install'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extensions ['colcon_pkg']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'colcon_pkg'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extensions ['colcon_meta']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'colcon_meta'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extensions ['ros']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'ros'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extensions ['cmake', 'python']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'cmake'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'python'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extensions ['python_setup_py']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws) by extension 'python_setup_py'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/build) by extension 'ignore'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/build) ignored
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extensions ['ignore', 'ignore_ament_install']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'ignore'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'ignore_ament_install'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extensions ['colcon_pkg']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'colcon_pkg'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extensions ['colcon_meta']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'colcon_meta'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extensions ['ros']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'ros'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extensions ['cmake', 'python']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'cmake'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'python'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extensions ['python_setup_py']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/config) by extension 'python_setup_py'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/install) by extension 'ignore'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/install) ignored
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/log) by extension 'ignore'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/log) ignored
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'ignore'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'ignore_ament_install'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extensions ['colcon_pkg']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'colcon_pkg'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extensions ['colcon_meta']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'colcon_meta'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extensions ['ros']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'ros'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extensions ['cmake', 'python']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'cmake'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'python'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extensions ['python_setup_py']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src) by extension 'python_setup_py'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'ignore'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'ignore_ament_install'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extensions ['colcon_pkg']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'colcon_pkg'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extensions ['colcon_meta']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'colcon_meta'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extensions ['ros']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'ros'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extensions ['cmake', 'python']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'cmake'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'python'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extensions ['python_setup_py']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools) by extension 'python_setup_py'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extensions ['ignore', 'ignore_ament_install']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'ignore'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'ignore_ament_install'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extensions ['colcon_pkg']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'colcon_pkg'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extensions ['colcon_meta']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'colcon_meta'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extensions ['ros']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'ros'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extensions ['cmake', 'python']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'cmake'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'python'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extensions ['python_setup_py']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/Notes) by extension 'python_setup_py'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extensions ['ignore', 'ignore_ament_install']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'ignore'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'ignore_ament_install'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extensions ['colcon_pkg']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'colcon_pkg'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extensions ['colcon_meta']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'colcon_meta'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extensions ['ros']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'ros'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extensions ['cmake', 'python']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'cmake'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'python'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extensions ['python_setup_py']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party) by extension 'python_setup_py'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'ignore'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'ignore_ament_install'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extensions ['colcon_pkg']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'colcon_pkg'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extensions ['colcon_meta']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'colcon_meta'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extensions ['ros']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'ros'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extensions ['cmake', 'python']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'cmake'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'python'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extensions ['python_setup_py']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/_3rd_party/pymap3d) by extension 'python_setup_py'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'ignore'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'ignore_ament_install'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extensions ['colcon_pkg']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'colcon_pkg'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extensions ['colcon_meta']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'colcon_meta'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extensions ['ros']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'ros'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extensions ['cmake', 'python']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'cmake'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'python'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extensions ['python_setup_py']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/protocols) by extension 'python_setup_py'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'ignore'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'ignore_ament_install'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extensions ['colcon_pkg']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'colcon_pkg'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extensions ['colcon_meta']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'colcon_meta'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extensions ['ros']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'ros'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extensions ['cmake', 'python']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'cmake'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'python'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extensions ['python_setup_py']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/testing_tools) by extension 'python_setup_py'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extensions ['ignore', 'ignore_ament_install']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'ignore'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'ignore_ament_install'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extensions ['colcon_pkg']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'colcon_pkg'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extensions ['colcon_meta']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'colcon_meta'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extensions ['ros']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'ros'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extensions ['cmake', 'python']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'cmake'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'python'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extensions ['python_setup_py']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/atdrive_moab_tools/utils) by extension 'python_setup_py'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extension 'ignore'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extension 'ignore_ament_install'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extensions ['colcon_pkg']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extension 'colcon_pkg'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extensions ['colcon_meta']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extension 'colcon_meta'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extensions ['ros']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup) by extension 'ros'
+[1.442s] DEBUG:colcon.colcon_core.package_identification:Package '/home/enelsis-pc/enelsis_moab_ws/src/enelsis_bringup' with type 'ros.ament_python' and name 'enelsis_bringup'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extension 'ignore'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extension 'ignore_ament_install'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extensions ['colcon_pkg']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extension 'colcon_pkg'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extensions ['colcon_meta']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extension 'colcon_meta'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extensions ['ros']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge) by extension 'ros'
+[1.444s] DEBUG:colcon.colcon_core.package_identification:Package '/home/enelsis-pc/enelsis_moab_ws/src/lidar_mavlink_bridge' with type 'ros.ament_python' and name 'lidar_mavlink_bridge'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extension 'ignore'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extension 'colcon_meta'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extensions ['ros']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry) by extension 'ros'
+[1.448s] DEBUG:colcon.colcon_core.package_identification:Package '/home/enelsis-pc/enelsis_moab_ws/src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extension 'ignore'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extensions ['ros']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver) by extension 'ros'
+[1.449s] DEBUG:colcon.colcon_core.package_identification:Package '/home/enelsis-pc/enelsis_moab_ws/src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[1.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

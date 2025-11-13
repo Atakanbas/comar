@@ -1,0 +1,17 @@
+[3.184s] Invoking command in '/home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge': PYTHONPATH=/home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enelsis-pc/enelsis_moab_ws/install/lidar_mavlink_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge/build --no-deps symlink_data
+[4.450s] running develop
+[5.050s] running egg_info
+[5.050s] writing lidar_mavlink_bridge.egg-info/PKG-INFO
+[5.051s] writing dependency_links to lidar_mavlink_bridge.egg-info/dependency_links.txt
+[5.051s] writing entry points to lidar_mavlink_bridge.egg-info/entry_points.txt
+[5.052s] writing requirements to lidar_mavlink_bridge.egg-info/requires.txt
+[5.052s] writing top-level names to lidar_mavlink_bridge.egg-info/top_level.txt
+[5.092s] reading manifest file 'lidar_mavlink_bridge.egg-info/SOURCES.txt'
+[5.093s] writing manifest file 'lidar_mavlink_bridge.egg-info/SOURCES.txt'
+[5.101s] running build_ext
+[5.102s] Creating /home/enelsis-pc/enelsis_moab_ws/install/lidar_mavlink_bridge/lib/python3.10/site-packages/lidar-mavlink-bridge.egg-link (link to .)
+[5.103s] Installing lidar_mavlink_bridge script to /home/enelsis-pc/enelsis_moab_ws/install/lidar_mavlink_bridge/lib/lidar_mavlink_bridge
+[5.103s] 
+[5.103s] Installed /home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge
+[5.104s] running symlink_data
+[5.176s] Invoked command in '/home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge' returned '0': PYTHONPATH=/home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enelsis-pc/enelsis_moab_ws/install/lidar_mavlink_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/enelsis-pc/enelsis_moab_ws/build/lidar_mavlink_bridge/build --no-deps symlink_data
