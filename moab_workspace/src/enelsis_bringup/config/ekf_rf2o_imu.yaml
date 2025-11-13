@@ -1,0 +1,106 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 50.0
+    sensor_timeout: 0.1
+    two_d_mode: true
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    publish_tf: true
+    tf_timeout: 0.1
+    transform_time_offset: 0.0
+    transform_timeout: 0.0
+
+    # RF2O Lidar Odometry - Position ve velocity için
+    odom0: /rf2o/odom
+    odom0_config: [true, true, false,   # position (x,y,z) - X,Y aktif, Z kapalı (2D)
+                   false, false, false,  # orientation (roll, pitch, yaw) - KAPALI (IMU'dan gelecek)
+                   true, true, false,   # linear velocity (x,y,z) - X,Y aktif
+                   false, false, false, # angular velocity (x,y,z) - KAPALI (IMU'dan gelecek)
+                   false, false, false] # linear acceleration - KAPALI
+    odom0_differential: false
+    odom0_relative: false
+    odom0_queue_size: 10
+
+    # Pixhawk 6X IMU - Orientation ve angular velocity için
+    imu0: /mavros/imu/data
+    imu0_config: [false, false, false,  # position (x,y,z) - KAPALI
+                  true, true, true,      # orientation (roll, pitch, yaw) - TÜMÜNÜ kullan
+                  false, false, false,  # linear velocity (x,y,z) - KAPALI (RF2O'dan gelecek)
+                  true, true, true,      # angular velocity (x,y,z) - TÜMÜNÜ kullan
+                  true, true, false]    # linear acceleration (x,y,z) - X,Y aktif (orientation için)
+    imu0_differential: false
+    imu0_relative: false
+    imu0_queue_size: 10
+    imu0_remove_gravitational_acceleration: true
+    imu0_linear_acceleration_rejection_threshold: 0.1
+    imu0_angular_velocity_rejection_threshold: 0.1
+    imu0_orientation_rejection_threshold: 0.1
+
+    # Process noise covariance - RF2O + IMU için optimize
+    process_noise_covariance: [0.05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # x: RF2O'dan
+                               0.0, 0.05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # y: RF2O'dan
+                               0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # z: sabit
+                               0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # roll: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # pitch: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # yaw: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # vx: RF2O'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # vy: RF2O'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,  # vz: sabit
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.0, 0.0, 0.0, 0.0, 0.0,  # vroll: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.0, 0.0, 0.0, 0.0,  # vpitch: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0,  # vyaw: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.00001, 0.0, 0.0,  # ax: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.00001, 0.0,  # ay: IMU'dan
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001]  # az: sabit
+
+    # Initial state covariance
+    initial_estimate_covariance: [1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9, 0.0,
+                                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1e-9]
+    
+    print_diagnostics: true
+    debug: false
+    debug_out_file: /tmp/ekf_debug.txt
+    
+    smooth_lagged_data: true
+    history_length: 0.5
+    
+    # QoS Overrides
+    qos_overrides:
+      /rf2o/odom:
+        subscription:
+          reliability: reliable
+          durability: volatile
+          history: keep_last
+          depth: 10
+      /mavros/imu/data:
+        subscription:
+          reliability: reliable
+          durability: volatile
+          history: keep_last
+          depth: 10
+      /odometry/filtered:
+        publisher:
+          reliability: reliable
+          durability: volatile
+          history: keep_last
+          depth: 10
+
+
+
